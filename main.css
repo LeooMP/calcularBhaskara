@@ -1,0 +1,49 @@
+h1{
+    margin-bottom: 90px;
+    text-align: center;
+    font-size: 40px;
+}
+
+body{
+     color: yellow;
+     text-align:center;
+     background-image: url('https://wallpapercave.com/wp/wp3283226.jpg');
+ }
+
+ .caixa{
+    width: 100px;
+    font-size: 30px;
+    background-color: rgb(139, 212, 241);
+    border-color: rgb(88, 74, 212);
+    border-radius: 5px;
+    border-width: 4px;
+    position: relative;
+    right: 40px;
+    margin-bottom: 50px;
+    
+ }
+
+ p{
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    
+ }
+
+ .botao{
+    text-align: center;
+    height: 55px;
+    width: 170px;
+    background-color: rgb(139, 212, 241)    ;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 4px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 17px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.botao:hover {
+    background-color: #82c962; /* Nova cor quando o mouse está sobre o botão */
+  }

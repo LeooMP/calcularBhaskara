@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Resultado de bhaskara</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='mains2.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+
+
+</body>
+
+<script>
+    function mostra(frase){
+        document.write(frase);
+        document.write("<br>");
+    }
+
+    const urlParams = new URLSearchParams(window.location.search);
+    
+
+        var a = urlParams.get('A');
+        var b = urlParams.get('B');
+        var c = urlParams.get('C');
+
+        var delta = (b*b) - (4*a*c);
+
+        var raiz = Math.sqrt(delta);
+
+        var termoB = b * (-1);
+
+        var bhaskara1 = (termoB + raiz) / (2*a);
+
+        var bhaskara2 = (termoB - raiz) / (2*a);
+
+
+        mostra("Delta: " + delta);
+        mostra("Raiz do delta: " + raiz);
+        mostra("Bhaskara: " + bhaskara1 + " e " + bhaskara2);
+
+</script>
+</html>
