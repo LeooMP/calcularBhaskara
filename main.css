@@ -20,7 +20,6 @@ body{
     position: relative;
     right: 40px;
     margin-bottom: 50px;
-    
  }
 
  p{
@@ -42,7 +41,8 @@ body{
     font-size: 17px;
     position: relative;
     margin-top: 30px;
-}
+    cursor: pointer;
+ }
 
 .botao:hover {
     background-color: #82c962; /* Nova cor quando o mouse está sobre o botão */
